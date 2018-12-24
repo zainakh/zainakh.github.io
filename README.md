@@ -2,6 +2,6 @@
 Personal website made using Jekyll. 
 
 # Running
-Clone or fork the repository and enter
+Clone or fork the repository and enter <br />
 `bundle exec jekyll serve` 
-to run the website on localhost:4000. 
+<br />to run the website on localhost:4000. 
