@@ -7,35 +7,28 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Zain Khan
+    tagline: Prospective Electrical Engineering Applicant
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: zain.kha.al@gmail.com
+    phone: 515 864 6959
+    linkedin: zain-a-khan
+    github: zainakh
 
     languages:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Uru
+        level: Casual
 
       - idiom: Spanish
-        level: Professional
+        level: Casual
 
     interests:
-      - item: Climbing
+      - item: Rock Climbing
         link:
 
       - item: Snowboarding
