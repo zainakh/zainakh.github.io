@@ -21,11 +21,11 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: Uru
-        level: Casual
+      - idiom: Urdu
+        level: Conversational
 
       - idiom: Spanish
-        level: Casual
+        level: Conversational
 
     interests:
       - item: Rock Climbing
@@ -40,30 +40,17 @@ sidebar:
 career-profile:
     title: Summary
     summary: |
-      Hello! My name is Zain Khan and I am currently a Senior studying Computer Science & Engineering and Mathematics at the University of Iowa. 
+      Hello! My name is Zain Khan and I am currently a Senior studying Computer Science & Engineering and Mathematics at the University of Iowa.
+      I am particularly interested in data science/machine learning, biosystems, and signal processing. 
+      Applying analysis to biological data to make neurobiological discoveries and develop smart healthcare applications are my current goals. 
+      When I am not doing research or schoolwork, you can find me taking photos and rock climbing!
 education:
-    - degree: BSE in Computer Science & Engineering, BS in Mathematics
+    - degree: BSE in Computer Science & Engineering, BS Mathematics
       university: University of Iowa
       time: 2016 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        University Honors
+        Honors in Engineering
 experiences:
     - role: Lead Developer
       time: 2015 - Present
