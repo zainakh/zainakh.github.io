@@ -53,47 +53,31 @@ education:
         University Honors
         Honors in Engineering
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Research Fellow
+      time: 2019 - Present
+      company: Iowa Center for Research by Undergraduates
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+           Created a new cost function for targeted adversarial attacks against selected deep learning networks.
+           Researched detection of adversarial attacks on U-Net MRI image reconstruction network.
+    - role: Research Fellow
+      time: 2018 - 2019
+      company: Iowa Center for Research by Undergraduates
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+            Performed natural language processing and machine learning on 2 terabytes of Twitter data during the last election cycle to contrast communication flow between supporters/dissenters of election candidates.
+            Poster presentation—“Character in the 2016 Election.” 
+
+    - role: Research Assistant
+      time: 2017 - 2018
+      company: Blumberg Lab of Psychological and Brain Sciences
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+            Leveraged neural networks for identification of twitch behavior in video recordings of mice.
+            Assembled automatic data collection tool for mice limbs using magnetometers and small magnets.
+            Data collection tool is linked here: https://github.com/zainakh/magnetometer-data.
+
 projects:
     title: Projects
     intro: >
-      Here are some highlighted Hackathon projects I have made. All code is open source and is linked below. 
+      Here are some highlighted Hackathon projects I have made (with various teams). All code is open source and is linked below. 
       
     assignments:
       - title: DiaMetrics
