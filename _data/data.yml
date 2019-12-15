@@ -93,9 +93,8 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are some highlighted Hackathon projects I have made. All code is open source and is linked below. 
+      
     assignments:
       - title: DiaMetrics
         link: "https://github.com/kblicharski/diametrics"
