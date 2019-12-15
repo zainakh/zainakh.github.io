@@ -97,10 +97,10 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: DiaMetrics
+        link: "https://github.com/kblicharski/diametrics"
+        tagline: "DiaMetrics takes the day-to-day data from a diabetic's life and puts it into a human-friendly format, making it visually pleasing as well as showing more information than raw data would. It gives helpful instructions based on blood-glucose level to help keep it in a healthy state."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Sifter
+        link: "https://github.com/zainakh/scarlethacks"
+        tagline: "Sifter utilizes OpenCV to scan for logos in the camera frame. It uses template matching to detect a logo with those stored in the database. Honey.com is scraped for coupons related to the brand and they are presented to the user."
