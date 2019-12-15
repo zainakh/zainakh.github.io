@@ -8,8 +8,8 @@ sidebar:
 
     # Profile information
     name: Zain Khan
-    tagline: Electrical & Computer Engineering PhD Applicant
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Prospective PhD Applicant
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: zain.kha.al@gmail.com
@@ -21,11 +21,11 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: Uru
-        level: Casual
+      - idiom: Urdu
+        level: Conversational
 
       - idiom: Spanish
-        level: Casual
+        level: Conversational
 
     interests:
       - item: Rock Climbing
@@ -38,37 +38,20 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hello! My name is Zain Khan and I am currently a Senior studying Computer Science & Engineering and Mathematics at the University of Iowa.
+      I am particularly interested in data science/machine learning, biosystems, and signal processing. 
+      Applying analysis to biological data to make neurobiological discoveries and develop smart healthcare applications are my current goals. 
+      
+      When I am not doing research or schoolwork, you can find me taking photos and rock climbing!
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSE Computer Science & Eng., BS Mathematics
+      university: University of Iowa
+      time: 2016 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        University Honors
+        Honors in Engineering
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -121,15 +104,3 @@ projects:
       - title: DevStudio
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
