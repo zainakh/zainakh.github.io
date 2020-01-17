@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Syntax Highlighting Post
-excerpt: "Demo post displaying the various ways of highlighting code in Markdown."
-categories: [code]
-modified: 2014-09-14
+title: Greenhouse Photos Jan. 2018
+excerpt: "Photos I took at the greenhouse above Biology Building West at the University of Iowa."
+categories: [photography]
+tags: [nature, photo editing]
 comments: true
 ---
 

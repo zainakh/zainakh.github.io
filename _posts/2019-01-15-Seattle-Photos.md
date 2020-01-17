@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Sample Link Post"
-excerpt: "Try click on the link icon."
-categories: [link post]
-tags: [test]
-link: http://renyuanz.github.io
+title: "Seattle Photos Jan. 2019"
+excerpt: "Visited some friends in Seattle this week, take a look at some of the photos I took while I was there!"
+categories: [photography]
+tags: [nature, hiking, friends]
 share: true
 ---
 
