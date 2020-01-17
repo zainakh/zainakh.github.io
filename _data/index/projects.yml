@@ -9,7 +9,7 @@
   image: pong.png
   github: https://github.com/zainakh/ICRU_2019
 
-- name: Research Assistant at the Blumberg Lab of Psychological and Brain Sciences
+- name: Research Assistant at the Blumberg Lab of Brain Sciences
   descr: "Primarily, I used neural networks for classification of twitch behavior in brain wave data using MATLAB. Secondly, I constructed a automated data collection tool for the lab. This project features the use of four magnetometers placed below each of the limbs of the mice used in experiments. As small magnets are attached to the mice's limbs (which are dangling off a platform suspended above the magentometers), the location data can be collected without the need for manual video tracking. The code, as well as a system diagram, can be viewed at the Github repository below."
   image: pong.png
   github: https://github.com/zainakh/magnetometer-data
