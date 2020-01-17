@@ -5,8 +5,8 @@
 #
 title: Zain Khan
 email: zain.kha.al@gmail.com
-description: Curious Electrical & Computer Engineer / Photographer
-url: zainakh.github.io
+description: Personal Website for Zain Khan
+url: https://zainakh.github.io
 keywords: ["blog", "jekyll"]
 
 #
@@ -14,7 +14,7 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Central
+timezone:          America/Chicago
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -35,8 +35,8 @@ kramdown:
 owner:
   name: Zain Khan
   avatar: profile.png
-  job: "ECE/Math Major with a penchant for photography"
-  bio: ""
+  job: "ECE & Math Major, Photographer"
+  bio: "Welcome! Feel free to take a look at any of my posts about research projects, photos I have taken, or whatever else you may find here."
   email: zain.kha.al@gmail.com
   disqus-shortname:
   twitter: #username
