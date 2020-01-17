@@ -1,4 +1,6 @@
-#[zainakh.github.io](https://zainakh.github.io)
+#zainakh.github.io
+
+[Visit here.](https://zainakh.github.io)
 
 Personal website made using the [Leonids](https://github.com/renyuanz/leonids) theme for Jekyll.
 
