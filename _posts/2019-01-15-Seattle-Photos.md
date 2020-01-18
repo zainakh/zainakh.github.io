@@ -14,8 +14,8 @@ I absolutely loved my visit to Pike's Place Market, and that was where I grabbed
 
 Other than that, I hiked up Rattlesnake Ridge and got some shots at the peak and some on the way up. My favorites are below. 
 
-![Mossy Tree Trunk]({{ site.url }}/img/tree.jpg)
+<img class="feature-image" src="{{ site.url }}/img/tree.jpg" alt="Mossy Tree Trunk">
 
-![Mountains in the Distance]({{ site.url }}/img/mountains.jpg)
+<img class="feature-image" src="{{ site.url }}/img/mountains.jpg" alt="Mountains in the Distance">
 
-![Cliffside of Mountain]({{ site.url }}/img/cliff.jpg)
+<img class="feature-image" src="{{ site.url }}/img/cliff.jpg" alt="Cliffside of Mountain">

@@ -13,10 +13,8 @@ comments: true
 
 Mostly flowers as I am a big fan. I hope to continue adding unique and nice looking flowers to my camera roll. 
 
-![Pink Flower]({{ site.url }}/img/pink_flower.jpg)
-
-![Tree with Fruit]({{ site.url }}/img/banana_tree.jpg)
-
-![Yellow Flower]({{ site.url }}/img/yellow_flower.jpg)
-
 <img class="feature-image" src="{{ site.url }}/img/pink_flower.jpg" alt="Pink Flower">
+
+<img class="feature-image" src="{{ site.url }}/img/banana_tree.jpg" alt="Tree with Fruit">
+
+<img class="feature-image" src="{{ site.url }}/img/yellow_flower.jpg" alt="Yellow Flower">
