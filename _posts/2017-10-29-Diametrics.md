@@ -7,9 +7,9 @@ image:
   feature: Diametrics.jpg
 comments: true
 ---
-# DiaMetrics
-
 This project is a way to receive heath insights from diabetes data inspired by the Diabetes Hack category at ArchHacks. One of our teammates in the hackathon is a type 1 diabetic and had to adjust to managing it when diagnosed. An application like this simplifies visualizing the data and also indicates when the insulin to glucose levels are not within safe parameters.
+
+<!--more-->
 
 ## What is it?
 
