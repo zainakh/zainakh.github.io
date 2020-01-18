@@ -18,3 +18,5 @@ Mostly flowers as I am a big fan. I hope to continue adding unique and nice look
 ![Tree with Fruit]({{ site.url }}/img/banana_tree.jpg)
 
 ![Yellow Flower]({{ site.url }}/img/yellow_flower.jpg)
+
+<img class="feature-image" src="{{ site.url }}/img/pink_flower.jpg" alt="Pink Flower">
