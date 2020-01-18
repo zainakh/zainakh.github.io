@@ -4,7 +4,7 @@ title:  "Diametrics - ArchHacks Winner"
 categories: [personal project]
 tags: [hackathon, healthcare]
 image:
-  feature: Diametrics.jpg
+  feature: Diametrics.png
 comments: true
 ---
 This project is a way to receive heath insights from diabetes data inspired by the Diabetes Hack category at ArchHacks. One of our teammates in the hackathon is a type 1 diabetic and had to adjust to managing it when diagnosed. An application like this simplifies visualizing the data and also indicates when the insulin to glucose levels are not within safe parameters.
