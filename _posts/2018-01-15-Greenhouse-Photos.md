@@ -15,8 +15,12 @@ Mostly flowers as I am a big fan. I hope to continue adding unique and nice look
 
 <div class="post-image-feature">
   <img class="feature-image" src="{{ site.url }}/img/pink_flower.jpg" alt="Pink Flower">
+</div><!-- /.image-wrap -->
 
+<div class="post-image-feature">
   <img class="feature-image" src="{{ site.url }}/img/banana_tree.jpg" alt="Tree with Fruit">
+</div><!-- /.image-wrap -->
 
+<div class="post-image-feature">
   <img class="feature-image" src="{{ site.url }}/img/yellow_flower.jpg" alt="Yellow Flower">
 </div><!-- /.image-wrap -->
