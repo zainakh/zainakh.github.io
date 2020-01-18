@@ -3,26 +3,46 @@ layout: post
 title:  "Diametrics - ArchHacks Winner"
 categories: [personal project]
 tags: [hackathon, healthcare]
+image:
+  feature: Diametrics.jpg
 comments: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# DiaMetrics
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This project is a way to receive heath insights from diabetes data inspired by the Diabetes Hack category at ArchHacks. One of our teammates in the hackathon is a type 1 diabetic and had to adjust to managing it when diagnosed. An application like this simplifies visualizing the data and also indicates when the insulin to glucose levels are not within safe parameters.
 
-<!--more-->
+## What is it?
 
-Jekyll also offers powerful support for code snippets:
+DiaMetrics takes the data from a diabetic's life and plots the glucose levels against time throughout the day. It lists only the past 24 hours worth of data as to only contain relevant information. Calculations are also done based on the food consumed, as the ratio of the carbohydrates and insulin are exponentially weighted through time in a moving average. This average weights relevant information more and depicts a proper insulin to glucose level ratio.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## How we Built it
+The Highcharts library allowed us to create our dynamic graph. This was supported with a Django back end and an Angular 4 front end to set up the interactive website. The numpy Python library was used to create the algorithm that maintains a weighted insulin to glucose average. Amazon Web Services hosted everything and allowed us to flesh out the project.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+## What we Learned
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+We learned about deployment and the Django REST framework, both of which we explored in our implementation. Some of us learned the fundamentals of JavaScript, while others gained experience using Angular 4. The numpy algorithm provided a different venture into data science, which was motivated by a publication on Exponentially Weighted Moving Average Control Charts (http://pubs.acs.org/doi/abs/10.1021/ie070589b) and how they are effective in detecting shifts in means. This will help forecast future observations and allow users to take preventative actions while allowing them to be easily aware of their average insulin to glucose levels and when this value steps outside of normal distributions. We thought about originally using machine learning in lieu of this, but numerical statistics are a proven way of detecting shifts and measuring any nonrandom patterns in data (as referenced in the paper above).
+
+## What is Next 
+
+We'd like to include much more interactivity in our project, such as being able to select time series for multiple days and cross referencing them over time to accrue a normal behavior pattern for their diabetes. Furthermore, gamifying the project to make kids interested in being in control of their diabetes is an issue that we hope to incorporate.
+
+## How do I use it?
+
+Visit the Github page for [Diametrics](https://github.com/kblicharski/diametrics).
+
+Run
+`npm install -g @angular/cli@latest`
+
+Clone the repository
+`git clone https://github.com/kblicharski/archhacks2017`
+
+and then enter commands
+```
+cd website
+npm install
+ng serve
+```
+
+and then navigate to
+`localhost:4200`
+in your browser.
