@@ -5,24 +5,21 @@ categories: [research]
 tags: [brain sciences, embedded systems]
 comments: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Meant to collect limb data from small magnets attached to mice that are placed above four QMC5883L magnetometers. The Arduino also features a TCA9548A I2C multiplexer to manage the four identical magnetometers. This also communicates with the Tucker Davis Technologies RZ2 to display when the data collection is active.
 
 <!--more-->
+I constructed a automated data collection tool for the Blumberg Lab of Psychological and Brain Sciences to remove the need for manual limb position tracking. The code, as well as a system diagram, can be viewed at the Github repository [here](https://github.com/zainakh/magnetometer-data).
 
-Jekyll also offers powerful support for code snippets:
+A general overview of the project is as follows: 
+* The Arduino collects magnetometer data and prints all axis data to the serial monitor
+* A Python file acts as a master and coordinates the start of data collection and the end of data collection
+* At the end of data collection, the Python file will save the data to a file using the PySerial library to interact with the Arduino Serial port
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+The most challenging part of this project was using the Wire.h Arduino library to collect data from four magnetometers at once. I initially thought it was impossible without four Arduinos as each of the magnetometers had identical addresses that the Arduino would somehow need to distinguish between. With a little searching around, an I2C mutliplexer allowed me to use all four and was capable of addressing them all with one Arduino. The next issue that stemmed from this was the initialization of each, but throwing a for loop that initialized all of the magnetometers where there was only one magnetometer did the trick (at the time I had no idea how to initialize them all at once, but I was overcomplicating the problem). 
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+This project was my first solo project as part of the lab and had me explore responsibility for what I was making without routine supervision. There were certainly times when I could have improved my efficiency (learning wire stripping tricks and soldering techniques constituted most of these troubles, actually). I can happily say that with time, I felt that considerably improved in my ability to do things quickly wihout that feeling of wasting time. 
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+A schematic for the circuit and its communication with other systems is pictured below: 
+<div class="post-image-feature">
+  <img class="feature-image" src="{{ site.url }}/img/circuit_schematic.png" alt="Circuit Schematic">
+</div><!-- /.image-wrap -->
