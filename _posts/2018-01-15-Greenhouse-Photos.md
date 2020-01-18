@@ -14,10 +14,7 @@ comments: true
 Mostly flowers as I am a big fan. I hope to continue adding unique and nice looking flowers to my camera roll. 
 
 ![Pink Flower]({{ site.url }}/img/pink_flower.jpg)
-{: .pull-right}
 
 ![Tree with Fruit]({{ site.url }}/img/banana_tree.jpg)
-{: .pull-right}
 
 ![Yellow Flower]({{ site.url }}/img/yellow_flower.jpg)
-{: .pull-right}
