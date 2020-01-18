@@ -5,7 +5,7 @@ excerpt: "My favorite photos I took at the greenhouse above Biology Building Wes
 categories: [photography]
 tags: [nature, photo editing]
 image:
-  feature: red_flower.jpg
+  feature: red_flower_png.png
 comments: true
 ---
 
